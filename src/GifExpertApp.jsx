@@ -8,10 +8,7 @@ export const GifExpertApp = () => {
   const onAddCategory = (newCategory) => {
 
     if (categories.includes(newCategory)) return;
-
-    //1era Forma
     setCategories([newCategory, ...categories]);
-
   }
 
   return (
